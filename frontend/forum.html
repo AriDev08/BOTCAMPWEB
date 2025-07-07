@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="w-full h-screen bg-[#0E1322]">
+    <div class="flex gap-10 mt-5 ml-10">
+        <!-- Categories Dropdown -->
+        <div class="relative group inline-block text-left">
+            <div
+                class="w-[122px] h-[31px] bg-[#0E1322] border border-white text-white flex items-center pl-3 text-[16px] mt-2 gap-1 cursor-pointer">
+                Categories
+                <svg xmlns="http://www.w3.org/2000/svg" class="size-4 pt-1 group-hover:rotate-180 duration-300" fill="currentColor" viewBox="0 0 24 24">
+                    <path fill-rule="evenodd"
+                        d="M12.53 16.28a.75.75 0 0 1-1.06 0l-7.5-7.5a.75.75 0 0 1 1.06-1.06L12 14.69l6.97-6.97a.75.75 0 1 1 1.06 1.06l-7.5 7.5Z"
+                        clip-rule="evenodd" />
+                </svg>
+            </div>
+
+            <!-- Dropdown menu -->
+            <div
+                class="absolute hidden group-hover:block bg-[#0E1322] border border-white text-white w-[122px] mt-1 z-10 shadow-md rounded">
+                <a href="#" class="block px-4 py-2 hover:bg-gray-800">blabla</a>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-800">blabla</a>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-800">blabla</a>
+            </div>
+        </div>
+
+        <!-- Tags Dropdown -->
+        <div class="relative group inline-block text-left">
+            <div
+                class="w-[100px] h-[31px] bg-[#0E1322] border border-white text-white flex items-center pl-4 text-[16px] mt-2 gap-1 cursor-pointer pl-8">
+                Tags
+                <svg xmlns="http://www.w3.org/2000/svg" class="size-4 pt-1 group-hover:rotate-180 duration-300" fill="currentColor" viewBox="0 0 24 24">
+                    <path fill-rule="evenodd"
+                        d="M12.53 16.28a.75.75 0 0 1-1.06 0l-7.5-7.5a.75.75 0 0 1 1.06-1.06L12 14.69l6.97-6.97a.75.75 0 1 1 1.06 1.06l-7.5 7.5Z"
+                        clip-rule="evenodd" />
+                </svg>
+            </div>
+
+            <!-- Dropdown menu -->
+            <div
+                class="absolute hidden group-hover:block bg-[#0E1322] border border-white text-white w-[100px] mt-1 z-10 shadow-md rounded">
+                <a href="#" class="block px-4 py-2 hover:bg-gray-800">blabla</a>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-800">blabla</a>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-800">blabla</a>
+            </div>
+        </div>
+
+        <a href="">
+            <h1 class="underline underline-offset-10 decoration-[#00FF1E] text-white text-[24px]">Categories</h1>
+        </a>
+        <a href="">
+            <h1 class="text-white text-[24px]">Latest</h1>
+        </a>
+        <a href="">
+            <h1 class="text-white text-[24px]">Top</h1>
+        </a>
+        <a href="">
+            <div class="w-[242px] h-[43px] bg-[#00FF1E] text-[24px] rounded-xl p-1 pl-7">Submit Your Own</div>
+        </a>
+    </div>
+    <div>
+        <div
+            class="w-[1105px] h-[232px] bg-[#0E1322] [box-shadow:0_0_20px_#00FF1E] m-10 ml-55 rounded-xl border-l-10 border-l-[#00FF1E] p-5 pt-14 hover:scale-105 hover:[box-shadow:0_0_40px_#00FF1E] duration-500">
+            <div class="flex ml-5 gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                    class="size-15 text-[#00FF1E] mt-[2px]">
+                    <path fill-rule="evenodd"
+                        d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm11.378-3.917c-.89-.777-2.366-.777-3.255 0a.75.75 0 0 1-.988-1.129c1.454-1.272 3.776-1.272 5.23 0 1.513 1.324 1.513 3.518 0 4.842a3.75 3.75 0 0 1-.837.552c-.676.328-1.028.774-1.028 1.152v.75a.75.75 0 0 1-1.5 0v-.75c0-1.279 1.06-2.107 1.875-2.502.182-.088.351-.199.503-.331.83-.727.83-1.857 0-2.584ZM12 18a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <h1 class="text-[40px] text-white">BLABLABLABLABLA</h1>
+            </div>
+            <div class="flex gap-3 ml-8 mt-5">
+                <p class="text-white text-[24px]">by Andra</p>
+                <div class="w-[14px] h-[14px] bg-[#D9D9D9] rounded-full mt-[14px]"></div>
+                <p class="text-[24px] text-white">15 Comment</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

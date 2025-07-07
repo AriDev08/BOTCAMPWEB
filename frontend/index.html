@@ -1,11 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-    
+
+<body class="w-full h-screen bg-[#0E1322]">
+    <nav class="flex items-center mt-5 px-10">
+        <div class="bg-[#0E1322] border border-[#00FF1E] w-[37px] h-[40px]"></div>
+        <span class="ml-4 text-lg font-semibold text-white">DADA-Team</span>
+        <div class="flex ml-16 space-x-5">
+            <a href="#" class="relative group inline-block overflow-hidden">
+                <span class="text-white text-[20px]">Products</span>
+                <span
+                    class="absolute left-0 bottom-0 h-[2px] w-full bg-white origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out">
+                </span>
+            </a>
+            <a href="#" class="relative group inline-block overflow-hidden">
+                <span class="text-white text-[20px]">Forum</span>
+                <span
+                    class="absolute left-0 bottom-0 h-[2px] w-full bg-white origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out">
+                </span>
+            </a>
+            <a href="#" class="relative group inline-block overflow-hidden">
+                <span class="text-white text-[20px]">Testimonials</span>
+                <span
+                    class="absolute left-0 bottom-0 h-[2px] w-full bg-white origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out">
+                </span>
+            </a>
+        </div>
+        <div class="ml-auto flex items-center space-x-5">
+            <a href="#" class="relative group inline-block overflow-hidden">
+                <span class="text-white text-[20px] font-semibold">Products</span>
+                <span
+                    class="absolute left-0 bottom-0 h-[2px] w-full bg-white origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out">
+                </span>
+            </a>
+            <div class="bg-white w-[1px] h-[50px]"></div>
+            <a href="#" class="relative group inline-block overflow-hidden">
+                <span class="text-white font-semibold text-[20px]">Login</span>
+                <span
+                    class="absolute left-0 bottom-0 h-[2px] w-full bg-white origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out">
+                </span>
+            </a>
+            <a href="#"
+                class="bg-[#00FF1E] px-4 py-2 rounded-lg transition duration-300 hover:shadow-[0_0_20px_#00FF1E] hover:scale-110">
+                <span class="text-[20px] text-black font-semibold">Sign-in</span>
+            </a>
+        </div>
+    </nav>
+
+    <section class="bg-[#0E1322] flex items-center mt-20 ml-30">
+        <div class="text-white max-w-xl">
+            <h1 class="text-[80px] leading-[1.1] font-thin">
+                BUILDER OF <br />
+                ALL YOUR
+            </h1>
+            <h2 class="text-[80px] leading-[1.1] font-black italic underline mt-2">
+                DREAMS<span class="not-italic">.</span>
+            </h2>
+            <p class="mt-6 italic text-gray-300 text-lg">
+                For all of the people that likes to check twice, <br />
+                this page is specifically build, <span class="font-bold">for you.</span>
+            </p>
+        </div>
+    </section>
+    <div class="mt-10 ml-30 flex gap-10">
+        <a href="">
+            <div
+                class="w-[142px] h-[70px] bg-[#00FF1E] rounded-xl hover:shadow-[0_0_20px_#00FF1E] transition duration-400 hover:scale-110">
+                <h1 class="text-[32px] text-center pt-2 ">BLABLA</h1>
+            </div>
+        </a>
+        <a href="">
+            <div
+                class="w-[142px] h-[70px] bg-gray-800 rounded-xl hover:shadow-[0_0_30px_#4B5563] transition duration-400 hover:scale-110">
+
+                <h1 class="text-white text-[32px] text-center pt-2">BLABLA</h1>
+            </div>
+        </a>
+    </div>
+    <section class="text-white w-full h-screen pt-10 bg-[#0E1322] mt-20">
+        <h1 class="text-[40px] ml-10">Our Expertise,</h1>
+        <div class="mt-5 ml-10 text-[40px]">
+            <a href="">
+                <div class="bg-gray-800 w-[305px] h-[100px] rounded-xl p-5 pl-25">Next.js</div>
+            </a>
+        </div>
+        <h1 class="text-[40px] ml-10 mt-5">Your <span class="font-bold">Choice</span></h1>
+        <div class="flex gap-20 ml-10">
+            <a href="shopping.php">
+                <div class="w-[305px] h-[281px]">
+                    <img class="w-[305px] h-[180px] rounded-xl" src="kucing.jpg" alt="">
+                    <h1 class="text-[24px] font-bold">Nama Template</h1>
+                    <p class=" text-[20px]">deskripsi template deskripsi templatedeskripsi template</p>
+                    <p>RP.xxx,xxx</p>
+                </div>
+            </a>
+        </div>
+    </section>
+    <section class="w-full h-screen bg-gradient-to-b from-[#0E1322] to-[#386488] mt-50 text-white">
+
+        <div class="flex pl-15 pt-30">
+            <img class="w-[290px] h-[295px]" src="OIP.png" alt="">
+            <div class="bg-white h-80 w-[3px] ml-30"></div>
+            <div class="flex-col text-[40px] pl-20 pt-10">
+                <h1 class="font-bold">Nama Template</h1>
+                <p class="max-w-[500px]">deskripsi template deskripsi templatedeskripsi template</p>
+            </div>
+        </div>
+        <div class="mt-10">
+            <div class="pl-15 pr-15 mt-10 space-y-6">
+                <!-- Baris 1 -->
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-4">
+                        <div class="bg-white w-[63px] h-[63px] rounded-xl"></div>
+                        <h1 class="font-bold text-[32px]">Nama Template</h1>
+                    </div>
+                    <h1 class="font-bold text-[32px]">Nama Template</h1>
+                </div>
+
+                <!-- Baris 2 -->
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-4">
+                        <div class="bg-white w-[63px] h-[63px] rounded-xl"></div>
+                        <h1 class="text-[32px]">Deskripsi Template</h1>
+                    </div>
+                    <h1 class="text-[32px]">Deskripsi Template</h1>
+                </div>
+
+                <!-- Baris 3 -->
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-4">
+                        <div class="bg-white w-[63px] h-[63px] rounded-xl"></div>
+                        <h1 class="text-[32px]">Template</h1>
+                    </div>
+                    <h1 class="text-[32px]">Template</h1>
+                </div>
+            </div>
+
+
+    </section>
 </body>
+
+</html>
+</body>
+
 </html>
